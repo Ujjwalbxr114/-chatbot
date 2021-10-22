@@ -1,0 +1,113 @@
+body{
+    width:100%;
+    height:auto;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 15px;
+}
+.card-container{
+    /* width: 480px; */
+    height:350px;
+    color: #fff;
+    background-color: orange;
+    background-image: linear-gradient(to right, rgb(243, 134, 44) , rgb(230, 92, 13));
+    border-radius:10px 10px 0 0;
+}
+.card-background{
+    /* width: 480px; */
+    height:450px;
+    border-radius:0  0 10px 10px;
+}
+.card-data{
+    /* width:450px; */
+    height:510px;
+    border-radius: 10px;
+    position: absolute;
+    top:-20%;
+    left:4%;
+}
+.fa-robot:before {
+    content: "\f544";
+    position: absolute;
+    top: 61%;
+    font-size: 30px;
+    background-color: rgb(255, 102, 0);
+    color: #fff;
+    border-radius: 100%;
+    padding: 20px;
+    z-index: 1;
+}
+@media (max-width:600px) {
+    .card-data{
+        /* width:450px; */
+        height:560px;
+        border-radius: 10px;
+        position: absolute;
+        top:-20%;
+        left:0%;
+    } 
+    .button-message{
+        border-radius: 10px;
+        margin:20px 10px 10px 10px;
+        padding: 15px;
+        font-weight: 700;
+        box-shadow: 2px 2px rgb(190, 189, 189);
+    } 
+}
+.card-content{
+    padding:15px;
+    margin:10px 0px;
+    box-shadow: 2px 2px rgb(190, 189, 189);
+    border-radius: 10px;
+}
+.ques{
+    background-color: rgb(252, 245, 214);
+    color:chocolate;
+    border-radius: 100%;
+    padding: 2px 8px;
+    font-size: 16px;
+    font-weight: bolder;
+}
+.data{
+    padding:2px 20px;
+    font-weight: 700;
+}
+.icon{
+    color: orange;
+}
+.fa-circle:before {
+    content: "\f111";
+    position: absolute;
+    top: 18px;
+    background-color: rgb(252, 245, 214);
+    border-radius: 100%;
+    padding: 2px 3px 2px 2px;
+}
+.button-message{
+    border-radius: 10px;
+    margin:41px 10px 10px 10px;
+    padding: 15px;
+    font-weight: 700;
+    box-shadow: 2px 2px rgb(190, 189, 189);
+    color: #000;
+}
+.dataHide li{
+    list-style-type: none;
+}
+.dataHide li a{
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+}
+.dataHide li a:hover{
+    background-color: rgb(28, 112, 221);
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+}
+a{
+    color:#000;
+}
+a:hover{
+    color:#000;
+    text-decoration: none;
+}

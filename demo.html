@@ -1,0 +1,157 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+</head>
+<body>
+        <div class="row justify-content-center">
+            <div class="col-lg-4 col-md-8 col-sm-12 col-md-offset-2 col-lg-offset-4 mt-5">
+                <div class="card bg-warning p-5 card-container">
+                    <h1>IRIS</h1>
+                    <h4>Hello <span>&#128075;&#127996;</span></h4>
+                    <div>I am Iris, a Virtual Assistant</div>
+                    <div>How may I help you?</div>
+                    <div></div>
+                    <div><i class="fas fa-robot"></i></div>
+                </div>
+                <div class="card p-4 card-background">
+                    <div class="col-sm-11 card card-data p-4">
+                        <div class="data">Frequently asking questions&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="ques">?</span></div>
+                        <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
+                            <div class="card card-content" data-toggle="modal" data-target="#originalterm"><i class="fa fa-circle icon"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Can i redeem my FB before the original term?</div>
+                        </div>
+                        
+                        <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+                            <a><div class="card card-content" data-toggle="modal" data-target="#creditcard"><i class="fa fa-circle icon"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;How do I pay my Credit card bill?</div></a>
+                        </div>
+                        <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="2000">
+                           <a> <div class="card card-content" data-toggle="modal" data-target="#Account"><i class="fa fa-circle icon"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;How can I get my Account Statement?</div></a>
+                        </div>
+                        <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="2500">
+                            <a><div class="card card-content" data-toggle="modal" data-target="#fixed"><i class="fa fa-circle icon"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;What is the tendure of Fixed Deposit?</div></a>
+                        </div>
+                        <button class="btn bg-light button-message"><i class="fas fa-comments"></i>&nbsp;&nbsp;Start a New Conversation</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal mt-5" tabindex="-1" role="dialog" id="originalterm">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                  <button type="button" class="close text-right pr-4 pt-4" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true" >&times;</span>
+                  </button>
+                <div class="modal-body">
+                    <div class="card p-3">
+                        <div style="font-size: 12px;">Here are the fund categories. You can select to view or filter based on your need.</div>
+                        <div class="row dataHide">
+                        <div class="col">
+                            <li><a href="#">Equity</a></li>
+                            <li><a href="#">Hybrid</a></li>
+                            <li><a href="#">Debt</a></li>
+                            <li><a href="#">Solution Oriented Fund</a></li>
+                            <li><a href="#">Other Schemes</a></li>
+                        </div>
+                        <div class="col">
+                            <li><a href="#"><i class="fas fa-arrow-right"></i></a></li>
+                            <li><a href="#"><i class="fas fa-arrow-right"></i></a></li>
+                            <li><a href="#"><i class="fas fa-arrow-right"></i></a></li>
+                            <li><a href="#"><i class="fas fa-arrow-right"></i></a></li>
+                            <li><a href="#"><i class="fas fa-arrow-right"></i></a></li>
+                        </div>
+                        </div> 
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal mt-5" tabindex="-1" role="dialog" id="creditcard">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                  <button type="button" class="close text-right pr-4 pt-4" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true" >&times;</span>
+                  </button>
+                <div class="modal-body">
+                    <div class="card p-3">
+                        <div>
+                            Please Login to help you further with your CREDIT CARD BILL PAYMENT request
+                        </div> 
+                        <button class="btn btn-light">Login Now</button>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal mt-5" tabindex="-1" role="dialog" id="Account">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                  <button type="button" class="close text-right pr-4 pt-4" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true" >&times;</span>
+                  </button>
+                <div class="modal-body">
+                    <div class="card p-3">
+                        <div>
+                            <p class="bg-light">Related Questions</p>
+                            <p><a href="#">Physical Statements of Account</a></p>
+                            <p><a href="#">Email Statements of Account</a></p>
+                            <p><a href="#">Get account statements in pdf format</a></p>
+                            <p><a href="#">Charges for Account Statement</a></p>
+                        </div> 
+                        <p><a href="#"><i class="fa fa-question"></i>&nbsp;&nbsp;Go to Help Center</a></p>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal mt-5" tabindex="-1" role="dialog" id="fixed">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                  <button type="button" class="close text-right pr-4 pt-4" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true" >&times;</span>
+                  </button>
+                <div class="modal-body">
+                    <div class="card p-3">
+                        <div>
+                            <p>ECS/NACH payments can't be held. We can stop it permanently and reactivate it again as and when it is required.</p>
+                            <p>You can cancel your NACH request by following a few simple</p>
+                            <p class="float-right"><a href="#">View More <i class="fa fa-angle-down"></i></a></p>
+                        </div> 
+                        <p><a href="#"><i class="fa fa-question"></i>&nbsp;&nbsp;Go to Help Center</a></p>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    <script>
+        AOS.init();
+    </script>
+    <script>
+        AOS.init();
+    </script>
+    <script>
+        $(document).ready(function(){
+
+        });
+    </script>
+</body>
+</html>
